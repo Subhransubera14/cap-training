@@ -1,0 +1,22 @@
+# GET http://localhost:4004/odata/v4/logistics/Vehicles?$filter=status eq 'Available'
+
+
+# GET http://localhost:4004/odata/v4/logistics/Shipments?$filter=status eq 'InTransit'
+
+
+# POST http://localhost:4004/odata/v4/logistics/Shipments
+# Content-Type: application/json
+
+# {
+#   "trackingNumber":"SL-2026-00009",
+#   "pickupCity":"Bangalore",
+#   "deliveryCity":"Hyderabad",
+#   "weight":250,
+#   "charges":5000
+# }
+
+
+# GET http://localhost:4004/odata/v4/logistics/Routes?$filter=fromCity eq 'Bangalore' and toCity eq 'Hyderabad'
+
+
+# GET http://localhost:4004/odata/v4/logistics/Drivers?$orderby=rating desc

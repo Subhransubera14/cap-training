@@ -1,0 +1,31 @@
+# GET http://localhost:4004/odata/v4/university/Courses?$filter=departmentCode eq 'CSE' and semester eq 5
+
+
+# GET http://localhost:4004/odata/v4/university/Students?$filter=cgpa gt 8
+
+
+# GET http://localhost:4004/odata/v4/university/Enrollments?$filter=studentId eq guid'11111111-1111-1111-1111-111111111111'
+
+
+# GET http://localhost:4004/odata/v4/university/Courses?$filter=currentEnrolled lt maxStudents
+
+
+# POST http://localhost:4004/odata/v4/university/Enrollments
+# Content-Type: application/json
+
+# {
+#   "studentId":"11111111-1111-1111-1111-111111111111",
+#   "courseCode":"CS101",
+#   "enrollmentDate":"2026-05-30",
+#   "status":"Enrolled"
+# }
+
+
+# PATCH http://localhost:4004/odata/v4/university/Enrollments(studentId=guid'11111111-1111-1111-1111-111111111111',courseCode='CS101')
+# Content-Type: application/json
+
+# {
+#   "grade":"A",
+#   "gradePoints":10
+# }
+

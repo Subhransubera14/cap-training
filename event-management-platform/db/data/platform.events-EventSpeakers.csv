@@ -1,0 +1,3 @@
+event_ID,speaker_ID,topic,sessionTime,sessionDuration,roomNumber
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,aaaaaaaa-1111-1111-1111-111111111111,CAP Basics,10:00:00,60,R101
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,bbbbbbbb-2222-2222-2222-222222222222,AI Future,11:00:00,90,R102

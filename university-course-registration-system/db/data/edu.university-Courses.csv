@@ -1,0 +1,7 @@
+code,title,description,credits,maxStudents,currentEnrolled,semester,departmentCode,professorId,schedule,roomNumber,isActive
+CS101,Programming Fundamentals,Intro to Programming,4,60,45,1,CSE,11111111-1111-1111-1111-111111111111,MWF 10:00-11:00,R101,true
+CS201,Data Structures,DS Course,4,50,40,3,CSE,44444444-4444-4444-4444-444444444444,MWF 11:00-12:00,R102,true
+CS301,Database Systems,DBMS Course,4,50,35,5,CSE,11111111-1111-1111-1111-111111111111,TTS 10:00-11:00,R103,true
+EC101,Basic Electronics,Electronics Basics,3,60,55,1,ECE,22222222-2222-2222-2222-222222222222,MWF 09:00-10:00,R201,true
+EC301,Digital Systems,Digital Logic,4,50,30,5,ECE,55555555-5555-5555-5555-555555555555,TTS 02:00-03:00,R202,true
+ME101,Engineering Mechanics,Mechanics Course,4,50,25,1,MECH,33333333-3333-3333-3333-333333333333,MWF 01:00-02:00,R301,true

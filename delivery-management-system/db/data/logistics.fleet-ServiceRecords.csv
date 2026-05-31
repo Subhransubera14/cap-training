@@ -1,0 +1,6 @@
+ID,vehicle_ID,serviceDate,serviceType,cost,description,nextServiceDate
+71717171-7171-7171-7171-717171717171,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,2025-01-10,Regular,3000,General maintenance,2025-07-10
+72727272-7272-7272-7272-727272727272,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,2025-02-15,Repair,12000,Engine repair,2025-08-15
+73737373-7373-7373-7373-737373737373,cccccccc-cccc-cccc-cccc-cccccccccccc,2025-03-20,Accident,25000,Body repair,2025-09-20
+74747474-7474-7474-7474-747474747474,dddddddd-dddd-dddd-dddd-dddddddddddd,2025-04-05,Regular,5000,Full service,2025-10-05
+75757575-7575-7575-7575-757575757575,eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,2025-05-01,Repair,7000,Brake replacement,2025-11-01

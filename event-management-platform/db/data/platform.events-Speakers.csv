@@ -1,0 +1,4 @@
+ID,name,email,phone,company,designation,expertise,photoUrl,rating,totalTalks,isActive
+aaaaaaaa-1111-1111-1111-111111111111,Amit,amit@mail.com,9876543001,SAP,Architect,CAP,url,4.8,40,true
+bbbbbbbb-2222-2222-2222-222222222222,Neha,neha@mail.com,9876543002,Google,Lead,AI,url,4.7,30,true
+cccccccc-3333-3333-3333-333333333333,Ravi,ravi@mail.com,9876543003,Microsoft,Manager,Cloud,url,4.6,25,true

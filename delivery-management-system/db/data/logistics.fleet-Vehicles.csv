@@ -1,0 +1,6 @@
+ID,registrationNumber,type,make,model,year,capacity,fuelType,status,lastServiceDate,mileage,insuranceExpiry
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,KA01AB1234,Bike,Hero,Splendor,2023,100,Petrol,Available,2025-01-10,12000,2027-01-10
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,KA02CD5678,Van,Tata,Winger,2022,1500,Diesel,OnTrip,2025-02-15,45000,2026-12-31
+cccccccc-cccc-cccc-cccc-cccccccccccc,KA03EF9012,Truck,Ashok Leyland,Dost,2021,3000,Diesel,Available,2025-03-20,60000,2026-10-15
+dddddddd-dddd-dddd-dddd-dddddddddddd,KA04GH3456,Trailer,Bharat Benz,TrailerX,2020,5000,Diesel,Maintenance,2025-04-05,80000,2026-09-01
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,KA05IJ7890,Van,Mahindra,Jeeto,2024,1200,CNG,Available,2025-05-01,8000,2028-05-01

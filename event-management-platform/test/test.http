@@ -1,0 +1,47 @@
+# GET http://localhost:4004/odata/v4/event/Events?$filter=status eq 'Published'&$orderby=startDate
+
+
+# GET http://localhost:4004/odata/v4/event/Events?$filter=eventType eq 'Workshop'
+
+
+# GET http://localhost:4004/odata/v4/event/Registrations?$filter=event_ID eq guid'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'
+
+
+# POST http://localhost:4004/odata/v4/event/Registrations
+# Content-Type: application/json
+
+# {
+#   "attendeeName":"New User",
+#   "attendeeEmail":"new@mail.com",
+#   "ticketType":"General",
+#   "amountPaid":1000
+# }
+
+
+# GET http://localhost:4004/odata/v4/event/Speakers?$orderby=rating desc
+
+
+# GET http://localhost:4004/odata/v4/event/Events?$filter=registeredCount lt maxAttendees
+
+
+# PATCH http://localhost:4004/odata/v4/event/Events(aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa)
+# Content-Type: application/json
+
+# {
+#   "status":"Published"
+# }
+
+
+# POST http://localhost:4004/odata/v4/event/Feedback
+# Content-Type: application/json
+
+# {
+#   "attendeeEmail":"test@mail.com",
+#   "overallRating":5,
+#   "contentRating":5,
+#   "venueRating":4,
+#   "speakerRating":5,
+#   "comment":"Excellent Event"
+# }
+
+

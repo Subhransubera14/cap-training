@@ -1,0 +1,51 @@
+# GET http://localhost:4004/odata/v4/hospital/Doctors
+
+
+# GET http://localhost:4004/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiology'
+
+
+# GET http://localhost:4004/odata/v4/hospital/Appointments?$filter=appointmentDate eq 2025-06-01
+
+
+# GET http://localhost:4004/odata/v4/hospital/Patients?$filter=bloodGroup eq 'O_Pos'
+
+
+# POST http://localhost:4004/odata/v4/hospital/Patients
+# Content-Type: application/json
+
+# {
+#   "firstName":"Subhransu",
+#   "lastName":"Bera",
+#   "dateOfBirth":"2000-01-01",
+#   "gender":"Male",
+#   "bloodGroup":"O_Pos",
+#   "phone":"9999999999",
+#   "email":"subhransu@gmail.com",
+#   "address":"Bhubaneswar",
+#   "emergencyContact":"8888888888",
+#   "registrationDate":"2025-06-01"
+# }
+
+
+# POST http://localhost:4004/odata/v4/hospital/Appointments
+# Content-Type: application/json
+
+# {
+#   "appointmentDate":"2025-06-01",
+#   "appointmentTime":"11:00:00",
+#   "status":"Scheduled",
+#   "reason":"Consultation",
+#   "fee":500
+# }
+
+
+
+# PATCH http://localhost:4004/odata/v4/hospital/Appointments(a1111111-1111-1111-1111-111111111111)
+# Content-Type: application/json
+
+# {
+#   "status":"Completed"
+# }
+
+
+

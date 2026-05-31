@@ -1,0 +1,5 @@
+ID,name,company,phone,email,address,city,pincode,gstNumber,tier
+11111111-1111-1111-1111-111111111111,Rajesh Kumar,ABC Traders,9876543210,rajesh@abctraders.com,MG Road,Bangalore,560001,GST001,Regular
+22222222-2222-2222-2222-222222222222,Priya Sharma,XYZ Industries,9876543211,priya@xyz.com,Anna Nagar,Chennai,600001,GST002,Premium
+33333333-3333-3333-3333-333333333333,Amit Das,Tech Solutions,9876543212,amit@techsolutions.com,Salt Lake,Kolkata,700001,GST003,Enterprise
+44444444-4444-4444-4444-444444444444,Neha Singh,Global Exports,9876543213,neha@globalexports.com,Connaught Place,Delhi,110001,GST004,Premium
